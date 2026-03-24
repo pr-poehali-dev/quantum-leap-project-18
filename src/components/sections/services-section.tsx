@@ -15,31 +15,31 @@ export function ServicesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Услуги
+            Что даём
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Возможности SkinForge</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Скины на героев",
+              description: "Сотни косметических предметов на всех популярных героев DOTA 2 — от редких до легендарных",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Визуальные эффекты",
+              description: "Спецэффекты на способности, анимации убийства и смерти — максимальная зрелищность в каждой игре",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Легитно и безопасно",
+              description: "Работаем без читов и модов — только официальные методы. Аккаунт в полной безопасности",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Мгновенный доступ",
+              description: "Активация за минуты — выбирай скин и сразу прыгай в игру. Поддержка 24/7",
               direction: "bottom",
             },
           ].map((service, i) => (
